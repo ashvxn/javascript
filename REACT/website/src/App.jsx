@@ -14,8 +14,8 @@ import "./assets/fonts/bold.ttf"
 function App() {
     return (
       <div className="App">
-        {/* <RegistrationForm /> */}
-        {food}
+        <RegistrationForm />
+     
       </div>
     );
   }

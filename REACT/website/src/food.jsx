@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from 'firebase/compat/app'; 
 import 'firebase/compat/database'; 
 
-class RegistrationForm extends React.Component {
+class Food extends React.Component {
   componentDidMount() {
     // Initialize Firebase with your configuration
     const firebaseConfig = {
@@ -81,4 +81,4 @@ class RegistrationForm extends React.Component {
   }
 }
 
-export default RegistrationForm;
+export default Food;
