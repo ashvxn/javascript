@@ -81,4 +81,4 @@ class RegistrationForm extends React.Component {
   }
 }
 
-export default food;
+export default RegistrationForm ;
