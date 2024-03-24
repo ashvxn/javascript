@@ -8,8 +8,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
 import './index.css';
-
-
+import "./assets/fonts/regular.ttf"
+import "./assets/fonts/bold.ttf"
 function App() {
     return (
       <div className="App">
