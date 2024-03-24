@@ -1,48 +1,12 @@
-/* body {
-  background-color: rgba(245, 146, 186, 0.842);
-}
-ul{
-  text-align: left;
-  color: rgb(255, 233, 233);
-  font-style: italic;
-}
-.card .h{
-  color: rgb(0, 0, 0);
-  font-family: bold;
-  margin: 5px;
-}
-.card .p{
-  color: rgb(0, 0, 0);
-  font-family: bold;
-  margin: 5px;
-}
-.card {
-  height: 270px;
-  width: 230px;
-  border: 2px;
-  box-shadow: 4px 4px 4px rgb(190, 93, 130);
- 
-  padding: 20px;
-  text-align: center;
-  display: inline-block;
-  border-color: rgb(156, 40, 40);
-  background-color: rgb(216, 76, 123);
-  border-radius: 10%;
-  margin:20px
-}
-.card .i {
-  width: 100px;
-  border-radius: 50%;
-}
-.card:hover{
-  background-color: pink ;
-} */
+
 
 
 
 body{
   background-color: rgb(0, 0, 0);
   color: white;
+  padding: 0;
+
   
 }
 input[type=text]:focus {
@@ -53,6 +17,7 @@ input[type=text] {
   background-color: lightblue;
   width: 240px;
   height: 20px;
+  border-radius: 2%;
 }
 button{
   
@@ -66,14 +31,16 @@ button{
     .primary
     {
         background-color: rgb(13,18,29);
-        border: 1px solid;
+        /* border: 1px solid; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px;
+  padding: 0px;
   width:500px;
   height:600px;
+ 
+  
   /* border-radius: 20px;
   box-shadow: 10px 7px; */
   ;
@@ -83,11 +50,11 @@ button{
 
         text-align: center;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgb(255, 255, 255);
+        color: rgb(230, 230, 230);
 }
 .submit{
     width: 140px;
-    height: 25px;
+    height: 35px;
     border-radius: 20px;
     border: 0px;
     background-color: rgb(255, 255, 255);
@@ -98,4 +65,29 @@ button{
 }
 .submit:hover{
     background-color: rgb(255, 174, 82);
+}
+
+.innerbox{
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+  padding-left: 10px;
+}
+.firstbox{
+  background-color: white;
+  height: 20px;
+  width :80px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
+.secondbox{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width :80px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+
 }

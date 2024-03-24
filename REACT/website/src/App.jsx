@@ -8,38 +8,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
 import './index.css';
-// import RegistrationForm from './form.jsx'
-
-// const yumiko = {
-//     profile : profile,
-//     name :"Yumiko kawai",
-//     phrase : "I am a doctor"
-// }
-
-
-
-
-// function App ()
-// {
-// //     const [rname, setName] = useState("Gowri Chandhana");
-// // const Gowri = {
-// //     profile : profile,
-// //     name :[rname, setName ],
-// //     phrase : "I am a Doctor"
-// // }
-  
-//  return (
-//     // <>
-//     // {/* <Card name = {yumiko.name} profile = {yumiko.profile} phrase = {yumiko.phrase} /> */}
-//     // {/* <Card name = {Gowri.name[0]} profile = {Gowri.profile} phrase = {Gowri.phrase} modify_name = {Gowri.name[1]}/> */}
- 
-//     // {/* <Card name = {ashvin.name[0]} profile = {ashvin.profile} phrase = {ashvin.phrase} modify_name = {ashvin.name[1]}/> */}
-
- 
-//     // </>
-//     {RegistrationForm}
-//  )
-// }
 
 
 function App() {
