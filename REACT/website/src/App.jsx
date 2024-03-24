@@ -1,5 +1,6 @@
 import Card from './card.jsx'
 import RegistrationForm from './form.jsx'
+import food from './food.jsx'
 import List from './List.jsx'
 import profile from './assets/WhatsApp Image 2024-02-25 at 21.07.46_26f4386f.jpg'
 import profile1 from './assets/MY PHOTO 2.jpg'
@@ -13,7 +14,8 @@ import "./assets/fonts/bold.ttf"
 function App() {
     return (
       <div className="App">
-        <RegistrationForm />
+        {/* <RegistrationForm /> */}
+        {food}
       </div>
     );
   }
